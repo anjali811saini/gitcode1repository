@@ -16,7 +16,8 @@ namespace gitcode1.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
-            //  ViewBag.Message = "Your Application Description Page New Line For Check push Code Successfully";
+              ViewBag.Message = "Your Application Description Page New Line For Check push Code Successfully";
+            ViewBag.Message = "Your Application Description Page New Line For Check push Code Successfully again";
             // return View();
             return View();
         }
